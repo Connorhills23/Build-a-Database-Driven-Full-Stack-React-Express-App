@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL =
+  "https://build-a-database-driven-full-stack-react-9cwd.onrender.com";
 
 export const getUsers = () => axios.get(`${API_URL}/users`);
 export const addUser = (username, email) =>
